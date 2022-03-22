@@ -1,6 +1,7 @@
 
 .img-header {
-    max-width: 100px;  
+    max-width: 80px;  
+    justify-content: center;
 }
 
 header.main-header {
@@ -21,4 +22,20 @@ ul.navbar {
 
 ul.navbar li {
     margin-right: 15px;
+}
+
+.card{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border: 3px solid plum;
+    width: 200px;
+    color: green;
+    float: left;
+    justify-content: space-between;
+}
+
+.title{
+    text-align: center;
+    color: rgb(245, 190, 238);
 }
