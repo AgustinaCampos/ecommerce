@@ -4,6 +4,11 @@
     justify-content: center;
 }
 
+.list-items {
+    display: flex;
+    justify-content: center;
+}
+
 header.main-header {
     width: 100%;
     display: flex;
@@ -13,15 +18,6 @@ header.main-header {
     align-items: center;
     box-sizing: border-box;
     background-color:#fff0fd;
-}
-
-ul.navbar {
-    list-style: none;
-    display: flex;
-}
-
-ul.navbar li {
-    margin-right: 15px;
 }
 
 .card{

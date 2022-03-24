@@ -1,4 +1,3 @@
-import "bootstrap-icons/font/bootstrap-icons.css";
 
 const CartWidget = () => {
     return(
