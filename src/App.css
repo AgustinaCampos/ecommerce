@@ -1,37 +1,6 @@
 
-.img-header {
-    max-width: 80px;  
-    justify-content: center;
-}
 
-.list-items {
-    display: flex;
-    justify-content: center;
-}
-
-header.main-header {
-    width: 100%;
-    display: flex;
-    padding: 10px 25px;
-    box-shadow: 1px 5px 15px gray;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    background-color:#fff0fd;
-}
-
-.card{
-    margin: 10px;
-    padding: 5px;
-    text-align: center;
-    border: 3px solid plum;
-    width: 200px;
-    color: green;
-    float: left;
-    justify-content: space-between;
-}
-
-.title{
+.title {
     text-align: center;
     color: rgb(245, 190, 238);
 }

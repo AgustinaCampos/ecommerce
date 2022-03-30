@@ -2,8 +2,8 @@ import React, {useState} from "react";
 import {
     Button, Drawer, Box, ListItem, List, ListItemText, ListItemIcon
 } from '@mui/material';
-import CartWidget from "./CartWidget"; 
-
+import CartWidget from "./CartWidget.js";
+import './NavBar.css'
 
 const NavBar = () => {
     const [open, setOpen] = useState(false);

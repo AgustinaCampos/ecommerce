@@ -1,8 +1,11 @@
 import React, {useState} from 'react';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
+import './Items.css'
 
-const Card = ({ title, price, size, stock }) => {
+const Card = ({ data }) => {
+    const { price, title, image, stock } = data;
+
     const [itemsToBuy, setItemsToBuy] = useState(0);
 
     const addItem = () => {
@@ -20,8 +23,8 @@ const Card = ({ title, price, size, stock }) => {
     return (
         <div className="card">
             <h2>{title}</h2>
+            <img src={`./${image}`} alt={image} className="product-image" />
             <p> Precio: ${price}</p>
-            <p>Talle: {size}</p>
             <ButtonGroup variant="outlined" aria-label="outlined button group">
                 <Button onClick={addItem}><i class="bi bi-plus-lg"></i></Button>
                 <Button>{itemsToBuy}</Button>
